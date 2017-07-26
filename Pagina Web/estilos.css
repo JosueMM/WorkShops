@@ -1,0 +1,110 @@
+<style type="text/css">
+		*{
+			padding:0px;
+			margin: 0px;
+		}
+
+ #header{
+     margin: auto;
+     width: 500px;
+      font-family: Arial,Helvetica,sans-serif;
+
+      }
+
+#imagenes{
+   
+  background-image: url(Background2.jpg);
+  background-attachment: fixed;
+  width: 875px;
+  height: 200px;
+  margin: 200px;
+  padding: 50px;
+}
+   ul,ol{
+
+   	list-style: none;
+   }
+
+   .nav li a {
+
+background-color: #000;
+color:#fff;
+text-decoration: none;
+padding: 10px 15px;
+display:block;    	
+   }
+.nav li a:hover{
+	background-color: #434343;
+}
+   .nav > li{
+    float: left;
+
+   }
+   .nav li ul{
+   	display:none;
+   	position:absolute;
+   	min-width: 140px;
+   }
+
+   .nav li:hover > ul{
+display:block;    	
+   } 
+.nav li ul li {
+ 	position:relative; 
+
+}
+.nav li ul li ul {
+	right:-140px;
+	top:0px;
+}
+
+@font-face{
+	font-family:GearsOfPeace;
+	src:url(Gears_of_Peace/GearsOfPeace.ttf);
+}
+
+h1{
+	
+	font-family:GearsOfPeace;
+	color:#0CC1CE;
+}
+h2{
+  
+  font-family:GearsOfPeace;
+  color:#0CC1CE;
+}
+
+p{
+	color: #fff;
+	object-position: 20% 0;
+}
+
+body{
+
+	background-image: url(Background.jpg);
+	background-attachment: fixed;
+}
+ul{
+	width: 920px;
+	margin: 0 auto;
+
+}
+
+
+ul li img{
+    background-size: cover;
+    border-radius:6px;
+    float: left;
+    opacity: .6;
+    width: 200px;
+    height: 200px;
+    -webkit-transition:all .6s ease;
+  }
+
+ul li img:hover{
+  opacity:1;
+  border-radius: 200;
+  box-shadow: 0px 0px 20px #ddd;
+}
+
+	</style>
