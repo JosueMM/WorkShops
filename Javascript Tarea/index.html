@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Registro</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" href="estilo.css" >
+</head>
+<body>
+
+	<h1>Persona</h1>
+
+	<div class="form-contact-info-1">
+		<form id="formAddUser" name="formAddUser">
+		<label for="usr">Nombre:</label>
+			<input type="text" class="form-control" name="name" value="" class="required"  id="name" />
+			<label for="usr">Apellido:</label>
+			<input type="text"  class="form-control" name="username" value=""  class="required"  id="username" />
+			<label for="usr">Telefono:</label>
+			<input type="text" class="form-control" name="telefono" value=""  class="required"  id="telefono" /><br>
+      <input type="button" class="btn btn-primary" value="Enviar" id="addUserButton"></input>
+	  <input type="button" class="btn btn-danger" value="Eliminar" id="deleteUserButton"></input><br>
+		</form>
+	</div>
+
+	<table name = "table" class="table table-hover" id="myData">
+		<th>
+			<tr>
+				<th>Nombre</th>
+				<th>Apellido</th>
+				<th>Telefono</th>
+			</tr>
+		</th>
+			<tbody id="users_table">
+		</tbody>
+		
+	</table>
+	
+	<script src="funcion.js" type="text/javascript"></script>
+	<script src="java.js" type="text/javascript"></script>
+</body>
+</html>
